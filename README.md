@@ -19,22 +19,22 @@ src/main/java/com/example/demo/
 └── ApiApplication   # Classe principal com @SpringBootApplication
 
 ✅ 3. Explicação dos Elementos do Código:
-```
+
 Model
 Representa os dados da aplicação (ex: Cliente, Item)
-```
+
 Repository
 Interface que comunica com o banco via Spring Data JPA
-```
+
 Service
 Implementa regras de negócio e orquestra chamadas ao repositório
-```
+
 Controller
 Expõe endpoints REST e interage com o Service
-```
+
 Swagger
 Documenta os endpoints da API automaticamente com Springdoc OpenAPI
-```
+
 🧾 Cliente - Exemplos com curl (se aplicavel)
 # Create (POST)
 ```    
