@@ -33,42 +33,55 @@ Swagger
 Documenta os endpoints da API automaticamente com Springdoc OpenAPI
 
 🧾 Cliente - Exemplos com curl
-🔹 Create (POST)
+# Create (POST)
+```    
     curl -X POST http://localhost:8080/clientes \
     -H "Content-Type: application/json" \
     -d '{"nome": "João Silva", "email": "joao@email.com"}'
 
-🔹 Read by ID (GET)
+# Read by ID (GET)
+```    
     curl http://localhost:8080/clientes/1
 
-🔹 Update (PUT)
+# Update (PUT)
+```    
     curl -X PUT http://localhost:8080/clientes/1 \
     -H "Content-Type: application/json" \
     -d '{"nome": "João Atualizado", "email": "joao@novoemail.com"}'
 
-🔹 Delete (DELETE)
+# Delete (DELETE)
+```    
     curl -X DELETE http://localhost:8080/clientes/1
 
-🔹 Count
+# Count
+```    
     curl http://localhost:8080/clientes/count
 
-🔹 Find All
+# Find All
+```   
     curl http://localhost:8080/clientes
 
-🔹 Find By Name
+# Find By Name
+```   
     curl http://localhost:8080/clientes/search?name=João
 
+
 📦 Item - Exemplos com curl (se aplicável)
-🔹 Create
+
+# Create
+```
     curl -X POST http://localhost:8080/items \
     -H "Content-Type: application/json" \
     -d '{"nome": "Notebook", "preco": 3500.00}'
 
-🔹 Find All
-    curl http://localhost:8080/items
+# Find All
+```
+curl http://localhost:8080/items
 
-🔹 Find By ID
-    curl http://localhost:8080/items/1
+# Find By ID
+```
+curl http://localhost:8080/items/1
 
-🔹 Delete
-    curl -X DELETE http://localhost:8080/items/1
+# Delete
+ ```
+ curl -X DELETE http://localhost:8080/items/1
