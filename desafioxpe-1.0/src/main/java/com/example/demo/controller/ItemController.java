@@ -53,6 +53,7 @@ public class ItemController {
                 .map(existing -> {
                     existing.setName(item.getName());
                     existing.setDescription(item.getDescription());
+                    existing.setPreco(item.getPreco());
                     return ResponseEntity.ok(repository.save(existing));
                 }).orElse(ResponseEntity.notFound().build());
     }

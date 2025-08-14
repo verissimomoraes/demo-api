@@ -48,6 +48,20 @@ public class ClienteController {
         return clienteService.salvar(cliente);
     }
 
+    @Operation(summary = "Atualiza um cliente por ID")
+    @PutMapping("/{id}")
+    public ResponseEntity<Cliente> updateCliente(@PathVariable Long id, @RequestBody Cliente clienteAtualizado) {
+        return clienteService.buscarPorId(id)
+            .map(cliente -> {
+                cliente.setNome(clienteAtualizado.getNome());
+                cliente.setEmail(clienteAtualizado.getEmail());
+                Cliente atualizado = clienteService.salvar(cliente);
+                return ResponseEntity.ok(atualizado);
+            })
+            .orElse(ResponseEntity.notFound().build());
+    }
+    
+
     @Operation(summary = "Deleta cliente por ID")
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deletar(@PathVariable Long id) {

@@ -11,6 +11,7 @@ public class Item {
 
     private String name;
     private String description;
+    private String preco;
 
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
@@ -20,4 +21,8 @@ public class Item {
 
     public String getDescription() { return description; }
     public void setDescription(String description) { this.description = description; }
+
+    public String getPreco() { return preco; }
+    public void setPreco(String preco) { this.preco = preco; }
+
 }
