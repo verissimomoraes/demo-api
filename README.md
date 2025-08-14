@@ -32,56 +32,60 @@ Expõe endpoints REST e interage com o Service
 Swagger
 Documenta os endpoints da API automaticamente com Springdoc OpenAPI
 
-🧾 Cliente - Exemplos com curl
+🧾 Cliente - Exemplos com curl (se aplicavel)
 # Create (POST)
 ```    
-    curl -X POST http://localhost:8080/clientes \
-    -H "Content-Type: application/json" \
-    -d '{"nome": "João Silva", "email": "joao@email.com"}'
-
+curl -X POST http://localhost:8080/clientes \
+-H "Content-Type: application/json" \
+-d '{"nome": "Marcelo Silva", "email": "joao@email.com"}'
+```
 # Read by ID (GET)
 ```    
-    curl http://localhost:8080/clientes/1
-
+curl http://localhost:8080/clientes/1
+```
 # Update (PUT)
 ```    
-    curl -X PUT http://localhost:8080/clientes/1 \
-    -H "Content-Type: application/json" \
-    -d '{"nome": "João Atualizado", "email": "joao@novoemail.com"}'
-
+curl -X PUT http://localhost:8080/clientes/1 \
+-H "Content-Type: application/json" \
+-d '{"nome": "Marcelo Atualizado", "email": "joao@novoemail.com"}'
+```
 # Delete (DELETE)
 ```    
-    curl -X DELETE http://localhost:8080/clientes/1
-
+curl -X DELETE http://localhost:8080/clientes/1
+```
 # Count
 ```    
-    curl http://localhost:8080/clientes/count
-
+curl http://localhost:8080/clientes/contar
+```
 # Find All
-```   
-    curl http://localhost:8080/clientes
-
+```
+curl http://localhost:8080/clientes
+```
 # Find By Name
 ```   
-    curl http://localhost:8080/clientes/search?name=João
-
+curl http://localhost:8080/clientes/nome/Marcelo
+```
 
 📦 Item - Exemplos com curl (se aplicável)
 
 # Create
 ```
-    curl -X POST http://localhost:8080/items \
-    -H "Content-Type: application/json" \
-    -d '{"nome": "Notebook", "preco": 3500.00}'
-
+curl -X POST http://localhost:8080/items \
+-H "Content-Type: application/json" \
+-d '{"name": "Notebook", "description": "Notebook Dell", "preco": 3500.00}'
+``` 
 # Find All
 ```
 curl http://localhost:8080/items
-
+```
 # Find By ID
 ```
 curl http://localhost:8080/items/1
-
+```
 # Delete
- ```
- curl -X DELETE http://localhost:8080/items/1
+```
+curl -X DELETE http://localhost:8080/items/1
+```
+# Teste
+
+![Curl](./arquitetura/teste_curl.png)
