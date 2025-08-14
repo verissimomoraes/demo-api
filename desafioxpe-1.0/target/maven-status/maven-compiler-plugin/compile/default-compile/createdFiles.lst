@@ -1,0 +1,10 @@
+com/example/demo/DemoApplication.class
+com/example/demo/controller/ClienteController.class
+com/example/demo/controller/ItemController.class
+com/example/demo/config/OpenApiConfig.class
+com/example/demo/service/ItemService.class
+com/example/demo/service/ClienteService.class
+com/example/demo/model/Item.class
+com/example/demo/model/Cliente.class
+com/example/demo/repository/ClienteRepository.class
+com/example/demo/repository/ItemRepository.class

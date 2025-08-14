@@ -1,0 +1,10 @@
+/mnt/c/Users/marcelo_moraes/Documents/pos-xpe/modulo 4/desafio/demo-api/desafioxpe-1.0/src/main/java/com/example/demo/DemoApplication.java
+/mnt/c/Users/marcelo_moraes/Documents/pos-xpe/modulo 4/desafio/demo-api/desafioxpe-1.0/src/main/java/com/example/demo/config/OpenApiConfig.java
+/mnt/c/Users/marcelo_moraes/Documents/pos-xpe/modulo 4/desafio/demo-api/desafioxpe-1.0/src/main/java/com/example/demo/controller/ClienteController.java
+/mnt/c/Users/marcelo_moraes/Documents/pos-xpe/modulo 4/desafio/demo-api/desafioxpe-1.0/src/main/java/com/example/demo/controller/ItemController.java
+/mnt/c/Users/marcelo_moraes/Documents/pos-xpe/modulo 4/desafio/demo-api/desafioxpe-1.0/src/main/java/com/example/demo/model/Cliente.java
+/mnt/c/Users/marcelo_moraes/Documents/pos-xpe/modulo 4/desafio/demo-api/desafioxpe-1.0/src/main/java/com/example/demo/model/Item.java
+/mnt/c/Users/marcelo_moraes/Documents/pos-xpe/modulo 4/desafio/demo-api/desafioxpe-1.0/src/main/java/com/example/demo/repository/ClienteRepository.java
+/mnt/c/Users/marcelo_moraes/Documents/pos-xpe/modulo 4/desafio/demo-api/desafioxpe-1.0/src/main/java/com/example/demo/repository/ItemRepository.java
+/mnt/c/Users/marcelo_moraes/Documents/pos-xpe/modulo 4/desafio/demo-api/desafioxpe-1.0/src/main/java/com/example/demo/service/ClienteService.java
+/mnt/c/Users/marcelo_moraes/Documents/pos-xpe/modulo 4/desafio/demo-api/desafioxpe-1.0/src/main/java/com/example/demo/service/ItemService.java
